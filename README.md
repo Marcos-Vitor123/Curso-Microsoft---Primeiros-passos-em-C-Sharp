@@ -1,6 +1,6 @@
 # Curso de C#
 
-<img src="./C#.png">
+<img src="C Sharp.png">
 
 <b>Valor Literal</b> => Um valor literal é um valor codificado que nunca muda.<br>
 <b>Literal Decimal</b> => Imprime um número que inclui valores após o ponto decimal. Para isso, adicionar a letra `m` ou `M`após o número depois do ponto. Ex: `12.3m`<br>
