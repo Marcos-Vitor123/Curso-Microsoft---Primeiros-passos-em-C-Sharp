@@ -35,7 +35,7 @@ console.log(items); // [ 201, 202, sales.json, totals.txt ]
   // 201: folder, 202: folder, sales.json: file, totals.txt: file
   
   ```
-### recursão
+### Recursão
 - Quando um método chama a si mesmo
   - Pastas e subpastas
   - Programa para localizar arquivos
@@ -58,4 +58,24 @@ console.log(items); // [ 201, 202, sales.json, totals.txt ]
   }
 
   findFiles("stores"); 
-```
+  ```
+### Determinar diretório atual
+- Constante `__dirname`
+  ```js
+  console.log(__dirname);
+  ```
+- Caminho para executar o código
+    - O valor `_dirname` será `/stores/201/sales`
+      ```js
+      📂 stores
+      📂 201
+          📂 sales
+      ```
+### Trabalhar com caminhos
+## Módulo path
+  - Para trabalhar com caminhos
+    ```js
+    const path = require("path");
+    ```
+
+🚧 Continuação em Breve... 🚧
